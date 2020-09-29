@@ -151,6 +151,12 @@ img {
     }
 
     #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        padding: 10px;
+    }
+
+    #steps .row>.left,
     #steps .row>.central {
       width: 50%;
     }
@@ -162,9 +168,6 @@ img {
 
     img {
         height: 150px;
-    }
-
-    .right img {
         margin-top: 20px;
     }
 }
