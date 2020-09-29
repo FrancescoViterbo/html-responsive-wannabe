@@ -82,6 +82,14 @@ img {
         box-sizing: border-box;
     }
 
+    h1 {
+        margin-top: 30px;
+    }
+
+    hr {
+        margin-top: 30px;
+    }
+
     .row {
       width: 300px;
       margin-top: 20px;
@@ -117,7 +125,46 @@ img {
 
     /* COMMON */
 
+    .container.grey {
+        margin-top: 30px;
+      padding: 20px 0;
+    }
+
     img {
       height: 100px;
+      margin-top: 30px;
+    }
+}
+
+/* BONUS SECTION */
+
+@media screen and (min-width: 421px) and (max-width: 1000px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .row {
+      width: 100%;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central {
+      width: 50%;
+    }
+
+    #steps .row>.right {
+        float: none;
+        margin: 0 auto;
+    }
+
+    img {
+        height: 150px;
+    }
+
+    .right img {
+        margin-top: 20px;
     }
 }
